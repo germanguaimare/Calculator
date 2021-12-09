@@ -1,12 +1,36 @@
+#calcSpace {
+    border: 1px red solid;
+    margin-top:6rem;
+    height: 26rem;
+    width: 22rem;
+}
 
-/* 
+#screenSpace {
+    margin-top:10px;
+    border: 1px blue solid;
+    height: 40%;
+    margin-bottom: 10px;
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#screen1, #screen2 {
+    border: 1px black solid;
+    height: 50%;
+    width:100%;
+}
 
-*/
+#buttonSpace {
+    border: 1px green solid;
+    height: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#buttonSpace Button {
+    border: 1px orangered solid;
+    width: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
